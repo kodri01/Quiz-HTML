@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS Royal Progress</title>
+    <style>
+        @page {
+            size: auto;
+        }
+
+        body {
+            background: rgb(204, 204, 204);
+        }
+
+        page {
+            background: white;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 0.5cm;
+            box-shadow: 0 0 0.1cm rgba(0, 0, 0, 0.5);
+        }
+
+        page[size="A4"] {
+            width: 10cm;
+            height: 650px;
+        }
+
+        page[size="A4"][layout="potrait"] {
+            width: 10cm;
+            height: 650px;
+        }
+
+        page[size="A3"] {
+            width: 10cm;
+            height: 650px;
+        }
+
+        page[size="A3"][layout="landscape"] {
+            width: 10cm;
+            height: 650px;
+        }
+
+        page[size="A5"] {
+            width: 10cm;
+            height: 650px;
+        }
+
+        page[size="A5"][layout="landscape"] {
+            width: 10cm;
+            height: 650px;
+        }
+
+        page[size="dipakai"][layout="landscape"] {
+            width: 22cm;
+            height: 33cm;
+        }
+
+        * {
+            padding: o;
+            margin: 0;
+            box-shadow: border-box;
+            list-style-type: none;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <page size="dipakai" layout="landscape" style="margin-top: 1rem;">
+        <div style="padding-top: 2rem; ">
+            <div style="margin-right: 2rem;">
+                <img style="position: absolute; margin-left: 1rem;"
+                    src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/65/000000/external-hospital-medical-kiranshastry-gradient-kiranshastry-1.png" />
+                <td>
+                    <font size="1px" color="purple" style="margin-left: 5rem;"><i><b>RUMAH SAKIT</b></i></font>
+                </td>
+                <td>
+                    <font style="font-size: 10px; margin-left: 602px;">RM.01</font>
+                </td><br>
+                <td>
+                    <font size="2px" color="purple"
+                        style="margin-left: 5rem; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                        <i><b>ROYAL PROGRESS</b></i></font>
+                </td>
+                <td>
+                    <font style="font-size: 13px; margin-left: 218px;"><b>FORMULIR PENDAFTARAN RAWAT INAP / ONE DAY
+                            CARE</b></font>
+                </td><br>
+                <td>
+                    <font color="purple"
+                        style="margin-left: 5rem; font-size: 8px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                        <i><b>Melayani dengan Penuh Cinta Kasih </b></i></font>
+                </td>
+                <td>
+                    <font style="font-size: 10px; margin-left: 453px; "><i>Semua bagian harus diisi</i></font>
+                </td>
+            </div>
+            <div style="padding: 1rem;">
+                <fieldset style="border-radius: 30px;">
+
+                    <td>
+                        <p align="right" style="margin-right: 40px;">
+                            <font size="2px">No. Rekam Medis</font>
+                        </p>
+                    </td>
+
+                    <td>
+                        <font size="2px">No. Register</font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________________</td>
+                    <td>
+                        <input type="button" style="width: 40px; margin-left: 21rem; height: 30px;">
+                    </td>
+                    <td>
+                        <input type="button" style="width: 40px; height: 30px;">
+                    </td>
+                    <td>
+                        <input type="button" style="width: 40px; height: 30px;">
+                    </td>
+                    <td>
+                        <p style="padding-top: 3px;"><b>
+                                <font size="2px">A. IDENTITAS PASIEN (bagian ini harus lengkap dan mohon diisi
+                                    pasien)</font>
+                            </b></p>
+                    </td>
+                    <td>
+                        <font size="1px" style="margin-right: 70px; margin-left: 1rem;">Nama depan (sesuai KTP)</font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________________________________________ </td>
+                    <td>
+                        <input style="margin-left: 1rem;" type="checkbox">
+                        <font size="1px">Laki-Laki</font>
+                    </td>
+                    <td>
+                        <input 1rem;" type="checkbox">
+                        <font size="1px">Perempuan</font>
+                    </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 45px; margin-left: 1rem;">Nama ibu kandung (sesuai KTP)
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>______________________________________________________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 75px; margin-left: 1rem;">Tempat dan Tanggal Lahir
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>__________________________ </td>
+                    <td>
+                        <font size="1px">Agama
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>______________________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 67px; margin-left: 1rem;">Alamat rumah (sesuai KTP)
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>________________________ </td>
+                    <td>
+                        <font size="1px">No.
+                        </font>
+                    </td>
+                    <td>_________ </td>
+                    <td>
+                        <font size="1px">RT.
+                        </font>
+                    </td>
+                    <td>___________ </td>
+                    <td>
+                        <font size="1px">RW.
+                        </font>
+                    </td>
+                    <td>__________ </td>
+                    <br>
+                    <td>
+                        <font size="1px" style="margin-right: 30px; margin-left: 13rem;">Kelurahan
+                        </font>
+                    </td>
+                    :
+                    <td>_________________________ </td>
+                    <td>
+                        <font size="1px" style="margin-left: 16px;">Kec.
+                        </font>
+                    </td>
+                    <td>_______________________ </td>
+                    <br>
+                    <td>
+                        <font size="1px" style="margin-right: 11px; margin-left: 13rem;">Kota / Wilayah
+                        </font>
+                    </td>
+                    :
+                    <td>_________________________ </td>
+                    <td>
+                        <font size="1px" style="margin-left: 16px;">Telepon.
+                        </font>
+                    </td>
+                    <td>_____________________ </td>
+                    <br>
+                    <td>
+                        <font size="1px" style="margin-right: 47px; margin-left: 13rem;">E-mail
+                        </font>
+                    </td>
+                    :
+                    <td>_________________________ </td>
+                    <td>
+                        <font size="1px" style="margin-left: 17px;">HP.
+                        </font>
+                    </td>
+                    <td>_______________________ </td>
+                    <br>
+                    <td>
+                        <font size="1px" style="margin-right: 100px; margin-left: 1rem;">Pendidikan Terakhir</font>
+                    </td>
+                    <td>:</td>
+                    <td>______________________________________________________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 105px; margin-left: 1rem;">Pekerjaan / bagian
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>______________________________________________________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 126px; margin-left: 1rem;">Alamat kantor
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>______________________________________________________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 123px; margin-left: 1rem;">Warga Negara
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>______________________________________________________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 20px; margin-left: 1rem;">Pasien pernah dirawat di RS
+                            Royal Progress Tanggal
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>___________________ </td>
+                    <td>
+                        <font size="1px">Bulan.
+                        </font>
+                    </td>
+                    <td>_______________ </td>
+                    <td>
+                        <font size="1px">Tahun.
+                        </font>
+                    </td>
+                    <td>____________ </td><br>
+
+                    <!-- PENANGGUNG JAWAB -->
+                    <td>
+                        <p style="padding-top: 3px;"><b>
+                                <font size="2px">B. IDENTITAS PENANGGUNG JAWAB (bagian ini mohon diisi penanggung jawab)
+                                </font>
+                            </b></p>
+                    </td>
+                    <td>
+                        <font size="1px" style="margin-right: 70px; margin-left: 1rem;">Nama depan (sesuai KTP)</font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________________________________________________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 45px; margin-left: 1rem;">Nama ibu kandung (sesuai KTP)
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________________________________________________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 67px; margin-left: 1rem;">Alamat rumah (sesuai KTP)
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________________________________________________________ </td>
+                    <br>
+                    <td>
+                        <font size="1px" style="margin-right: 30px; margin-left: 13rem;">Kelurahan
+                        </font>
+                    </td>
+                    :
+                    <td>_________________________ </td>
+                    <td>
+                        <font size="1px" style="margin-left: 16px;">Kec.
+                        </font>
+                    </td>
+                    <td>______________________ </td>
+                    <br>
+                    <td>
+                        <font size="1px" style="margin-right: 11px; margin-left: 13rem;">Kota / Wilayah
+                        </font>
+                    </td>
+                    :
+                    <td>_________________________ </td>
+                    <td>
+                        <font size="1px" style="margin-left: 16px;">Telepon.
+                        </font>
+                    </td>
+                    <td>____________________ </td>
+                    <br>
+                    <td>
+                        <font size="1px" style="margin-right: 47px; margin-left: 13rem;">E-mail
+                        </font>
+                    </td>
+                    :
+                    <td>_________________________ </td>
+                    <td>
+                        <font size="1px" style="margin-left: 17px;">HP.
+                        </font>
+                    </td>
+                    <td>______________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 126px; margin-left: 1rem;">Alamat kantor
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________________________________________________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 105px; margin-left: 1rem;">Pekerjaan / bagian
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________________________________________________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 36px; margin-left: 1rem;">Hubungan dengan pasien sebagai
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________________________________________________________ </td><br>
+
+
+                    <!-- Kelas Perawatan -->
+                    <td>
+                        <p style="padding-top: 3px;"><b>
+                                <font size="2px">C. KELAS PERAWATAN YANG DIMINTA (bagian ini diisi admission)
+                                </font>
+                            </b></p>
+                    </td>
+                    <td>
+                        <font size="1px" style="margin-right: 113px; margin-left: 1rem;">Kelas perawatan
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>________________ </td>
+                    <td>
+                        <font size="1px" style="margin-right: 30px;">Kamar
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>____________ </td>
+                    <td>
+                        <font size="1px" style="margin-right: 60px;">Lantai
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 120px; margin-left: 1rem;">Tanggal masuk
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>________________ </td>
+                    <td>
+                        <font size="1px" style="margin-right: 40px;">Jam
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>____________ </td>
+                    <td>
+                        <font size="1px" style="margin-right: 18px;">Dokter pengirim
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 162px; margin-left: 1rem;">DPJP
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________________________________________________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 36px; margin-left: 1rem;">Asal pasien (pilih satu)
+                        </font>
+                    </td>
+                    <br>
+                    <td>
+                        <input style="margin-left: 1rem;" type="checkbox">
+                        <font size="1px" style="margin-right: 2rem;">IGD</font>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <font size="1px">IRG</font>
+                    </td>
+                    <td>
+                        <font size="1px" style=" margin-left: 3rem;">Jaminan kesehatan
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <font size="1px" style=" margin-left: 13rem;">Rujukan
+                        </font>
+                    </td>
+                    <td>:</td><br>
+                    <td>
+                        <input style="margin-left: 11rem;" type="checkbox">
+                        <font size="1px" style="margin-right: 14rem;">GAKIN/SKTM</font>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <font size="1px" style="margin-right: 3rem;">Dr. Royal Progress</font>
+                    </td>
+                    </td>
+                    <td>:</td>
+                    <td>_____________ </td><br>
+                    <td>
+                        <input style="margin-left: 11rem;" type="checkbox">
+                        <font size="1px" style="margin-right: 253px;">ASKES</font>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <font size="1px" style="margin-right: 2rem;">Dr. Kerjasama/rujukan</font>
+                    </td>
+                    </td>
+                    <td>:</td>
+                    <td>_____________ </td><br>
+                    <td>
+                        <input style="margin-left: 11rem;" type="checkbox">
+                        <font size="1px" style="margin-right: 226px;">JAMSOSTEK</font>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <font size="1px" style="margin-right: 4.6rem;">Rumah Sakit</font>
+                    </td>
+                    </td>
+                    <td>:</td>
+                    <td>_____________ </td><br>
+                    <td>
+                        <input style="margin-left: 11rem;" type="checkbox">
+                        <font size="1px" style="margin-right: 245px;">LAINNYA</font>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <font size="1px" style="margin-right: 6.6rem;">Bidan</font>
+                    </td>
+                    </td>
+                    <td>:</td>
+                    <td>_____________ </td><br>
+                    <td>
+                        <input style="margin-left: 30.3rem;" type="checkbox">
+                        <font size="1px" style="margin-right: 2.4rem;">Perusahaan rekanan</font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________ </td><br>
+                    <td>
+                        <input style="margin-left: 30.3rem;" type="checkbox">
+                        <font size="1px" style="margin-right: 5.8rem;">Yayasan</font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________ </td><br>
+                    <td>
+                        <input style="margin-left: 30.3rem;" type="checkbox">
+                        <font size="1px" style="margin-right: 3.8rem;">Progress Group</font>
+                    </td>
+                    <td>:</td>
+                    <td>_____________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 108px; margin-left: 1rem;">Cara Pembayaran
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox">
+                        <font size="1px">Pribadi</font>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <font size="1px">Jaminan</font>
+                    </td>
+                    <td>:</td>
+                    <td>________________________________________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 70px; margin-left: 1rem;">Kode perusahaan/asuransi
+                        </font>
+                    </td>
+                    <td>:</td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 128px; margin-left: 1rem;">Surat jaminan
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox">
+                        <font size="1px">Ya</font>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <font size="1px">Tidak</font>
+                    </td><br>
+                    <td>
+                        <font size="1px" style="margin-right: 130px; margin-left: 1rem;">Surat rujukan
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <input type="checkbox">
+                        <font size="1px">Ya</font>
+                    </td>
+                    <td>
+                        <input type="checkbox">
+                        <font size="1px">Tidak</font>
+                    </td><br>
+
+                    <!-- surat persetujuan -->
+                    <td>
+                        <p style="padding-top: 3px;"><b>
+                                <font size="2px">D. SURAT PERNYATAAN PERSETUJUAN PERATURAN RUMAH SAKIT DAN HAK PASIEN
+                                </font>
+                            </b></p>
+                    </td>
+                    <td>
+                        <font size="1px" style=" margin-left: 35rem;"><b>Jakarta.</b></font>
+                    </td>
+                    <td>__________________ </td><br>
+                    <td>
+                        <font size="1px" style="margin-left: 549px;">Tanda tangan penanggung jawab pasien/pasien
+                        </font>
+                    </td><br>
+                    <td>
+                        <font size="1px" style="margin-left: 1rem;">Harus ACC No. 1 & 2
+                        </font>
+                    </td><br>
+                    <td>
+                        <font size="1px" style="margin-left: 1.3rem;">acc
+                        </font>
+                    </td>
+                    <td>
+                        <font size="1px" style="margin-left: 13px;">Saya sudah membaca, mengerti dan
+                        </font>
+                    </td><br>
+                    <td>
+                        <input type="button" style="width: 30px; margin-left: 1rem; height: 33px; position: absolute;">
+                        <font size="1px" style="margin-left: 52px; text-align: justify;">menyetujui "Peraturan Rawat
+                            Inap / One Day
+                        </font>
+                    </td><br>
+                    <td>
+                        <font size="1px" style="margin-left: 52px; text-align: justify;">Care".
+                        </font>
+                    </td>
+                    <td>
+                        <font size="1px" style="margin-left: 540px;">
+                            (...........................................................................)
+                        </font>
+                    </td>
+                    <td>
+                        <font size="1px" style="margin-left: 620px;">
+                            Nama Lengkap
+                        </font>
+                    </td><br>
+                    <td>
+                        <font size="1px" style="margin-left: 1.3rem;">acc
+                        </font>
+                    </td>
+                    <td>
+                        <font size="1px" style="margin-left: 13px;">Saya sudah membaca, mengerti dan
+                        </font>
+                    </td><br>
+                    <td>
+                        <input type="button" style="width: 30px; margin-left: 1rem; height: 33px; position: absolute;">
+                        <font size="1px" style="margin-left: 52px; text-align: justify;">menyetujui "Hak dan Kewajiban
+                            Pasien Rawat
+                        </font>
+                    </td>
+                    <td>
+                        <font size="1px" style="margin-left: 280px; text-align: justify;"><b>Tanda tangan petugas
+                                admission</b>
+                        </font>
+                    </td><br>
+                    <td>
+                        <font size="1px" style="margin-left: 52px; text-align: justify;">Inap / One Day".
+                        </font>
+                    </td><br>
+                    <td>
+                        <font size="1px" style="margin-left: 1rem;">Distribusi
+                        </font>
+                    </td>
+                    <td>:</td>
+                    <td>
+                        <font size="1px" style="margin-left: 1rem; margin-right: 10px;">Putih
+                        </font>
+                    </td>
+                    <td>
+                        <font size="1px">-
+                        </font>
+                    </td>
+                    <td>
+                        <font size="1px" style="margin-left: 5px;">Rekam medis
+                        </font>
+                    </td><br>
+                    <td>
+                        <font size="1px" style="margin-left: 5.3rem; margin-right: 5px;">Merah
+                        </font>
+                    </td>
+                    <td>
+                        <font size="1px">-
+                        </font>
+                    </td>
+                    <td>
+                        <font size="1px" style="margin-left: 5px;">Kasir
+                        </font>
+                    </td><br>
+                    <td>
+                        <font size="1px" style="margin-left: 5.3rem; margin-right: 16px;">Biru
+                        </font>
+                    </td>
+                    <td>
+                        <font size="1px">-
+                        </font>
+                    </td>
+                    <td>
+                        <font size="1px" style="margin-left: 5px;">Admission
+                        </font>
+                    </td>
+                    <td>
+                        <font size="1px" style="margin-left: 540px;">
+                            (...........................................................................)
+                        </font>
+                    </td>
+                    <td>
+                        <font size="1px" style="margin-left: 620px;">
+                            Nama Lengkap
+                        </font>
+                    </td>
+                </fieldset>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </page>
+</body>
+
+</html>
